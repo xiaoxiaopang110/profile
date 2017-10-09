@@ -1,0 +1,204 @@
+*{margin:0;padding:0}
+a{text-decoration: none;}
+li{list-style-type: none;}
+.section{overflow:hidden;color: #666; }
+.nav{
+    width: 100%;
+    height: 40px;
+    background: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+.nav li{
+    float: left;
+    padding:0 15px;
+    line-height: 40px;
+}
+.nav li a{
+    color: #fff;
+    font-size: 14px;
+
+}
+.nav li:hover{
+    background-color: #FFF;
+    color: #666;
+}
+.active{
+    background-color: #FFF;
+    color: #666;
+}
+.nav li:hover a{color: #666;}
+.nav li.active a{color: #666;}
+
+/*main区域开始*/
+#main{
+    margin-top: 60px;
+}
+
+.se-content {
+    width: 66%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section .se-h1 {
+    font-size: 80px;
+    line-height: 120px;
+}
+.section .se{
+    line-height: 40px;
+}
+.section .orgin{
+    color: #ff6700;
+    text-align: center;
+}
+.se-1 ul{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.se-1 ul li{
+    text-align: center;
+     float: left;
+     margin-left: 16px;
+ }
+.se-1 li img{
+   /*width: 33%;*/
+
+}
+/*第二屏*/
+.section .page2-title{
+    magrin:0 auto;
+}
+.page2-zi{
+    padding-left: 97px;
+
+    text-align: left;
+    line-height: 32px;
+}
+
+
+/*第三屏*/
+.page3-title {
+    font-size: 30px;
+    line-height: 60px;
+    text-align: left;
+    clear: both;
+}
+.page3-list li{
+    float: left;
+    width: 20%;
+    height: auto;
+    padding-bottom: 22px;
+    position: relative;
+    cursor: pointer;
+    transition: all .7s .7s ease-in-out;
+}
+
+.page3-list li  img{
+    width: 50%;
+    height: auto;
+   }
+
+.page3-h, .page4-title {
+    color: #ff6700;
+}
+.page3-c {
+
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    -o-opacity: 0;
+    opacity: 0;
+    width: 85%;
+    height: 130px;
+    background: black;
+  color: #fff;
+    padding: 5px 10px;
+    line-height: 22px;
+    overflow: hidden;
+    font-size: 14px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+
+}
+.page3-list li:hover .page3-c{opacity: 1;}
+
+/*第四屏*/
+.page4-1 ul li{
+    width:33%;
+    float: left;
+
+}
+.page4-1 .page4-x{
+    font-size: 40px;
+}
+.page4-bufen{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+
+.page4-2 ul li{
+    width:33%;
+    float: left;
+    position: relative;
+
+}
+
+.page4-content {
+
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    -o-opacity: 0;
+    opacity: 0;
+    width: 85%;
+    height: 170px;
+    background: black;
+    color: #fff;
+    padding: 5px 10px;
+    line-height: 22px;
+    overflow: hidden;
+    font-size: 14px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+
+}
+.page4-2  li:hover .page4-content{opacity: 1;}
+.page4-tu img{
+    border-radius: 60%;
+}
+/*第五屏*/
+.page5-title{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.page5-content{
+    text-indent: 2em;
+    text-align: left;
+    line-height: 24px;
+
+}
